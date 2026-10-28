@@ -1,0 +1,6 @@
+{
+ "id": "base",
+ "name": "Farland Story (원작 추출)",
+ "priority": 0,
+ "description": "CD 이미지에서 추출한 기본 리소스. 다른 팩이 같은 경로의 파일로 덮어쓸 수 있다."
+}

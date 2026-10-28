@@ -1,0 +1,12 @@
+
+ Start  Stop   Length Name               Class
+
+ 00000H 00198H 00199H _TEXT              CODE
+ 001A0H 001A7H 00008H _DATA              DATA
+ 001A8H 001A8H 00000H _BSS               BSS
+ 001B0H 002AFH 00100H STACK              STACK
+ 002B0H 00357H 000A8H $$SYMBOLS          DEBSYM
+ 00360H 0036BH 0000CH $$TYPES            DEBTYP
+
+Program entry point at 0000:0000
+

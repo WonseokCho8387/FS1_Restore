@@ -1,0 +1,522 @@
+{
+ "name": "STAGE15",
+ "blocks": [
+  {
+   "id": "0",
+   "commands": [
+    {
+     "cmd": "portrait",
+     "side": "right",
+     "face": -1,
+     "arg": 1,
+     "cond": "",
+     "mode": "",
+     "speaker": "",
+     "text": "",
+     "clear": false,
+     "wait": false
+    },
+    {
+     "cmd": "text",
+     "side": "",
+     "face": -1,
+     "arg": 1,
+     "cond": "",
+     "mode": "",
+     "speaker": "unitName",
+     "text": "［．．．여기가 어디냐 ？］",
+     "clear": false,
+     "wait": true
+    },
+    {
+     "cmd": "portrait",
+     "side": "left",
+     "face": -1,
+     "arg": 0,
+     "cond": "",
+     "mode": "",
+     "speaker": "",
+     "text": "",
+     "clear": false,
+     "wait": false
+    },
+    {
+     "cmd": "text",
+     "side": "",
+     "face": -1,
+     "arg": 0,
+     "cond": "",
+     "mode": "",
+     "speaker": "unitName",
+     "text": "［우리들은 분명히 악마 군단을",
+     "clear": false,
+     "wait": false
+    },
+    {
+     "cmd": "text",
+     "side": "",
+     "face": -1,
+     "arg": -1,
+     "cond": "",
+     "mode": "",
+     "speaker": "",
+     "text": "쫓아갔을텐데 ．．．］",
+     "clear": false,
+     "wait": true
+    },
+    {
+     "cmd": "portrait",
+     "side": "right",
+     "face": -1,
+     "arg": 2,
+     "cond": "",
+     "mode": "",
+     "speaker": "",
+     "text": "",
+     "clear": false,
+     "wait": false
+    },
+    {
+     "cmd": "text",
+     "side": "",
+     "face": -1,
+     "arg": 2,
+     "cond": "",
+     "mode": "",
+     "speaker": "unitName",
+     "text": "［．．．길을 잘 못 들었을까 ？］",
+     "clear": false,
+     "wait": true
+    },
+    {
+     "cmd": "portrait",
+     "side": "left",
+     "face": -1,
+     "arg": 4,
+     "cond": "",
+     "mode": "",
+     "speaker": "",
+     "text": "",
+     "clear": false,
+     "wait": false
+    },
+    {
+     "cmd": "text",
+     "side": "",
+     "face": -1,
+     "arg": 4,
+     "cond": "",
+     "mode": "",
+     "speaker": "unitName",
+     "text": "［여기에도 악마 군단은 있을테니까",
+     "clear": false,
+     "wait": false
+    },
+    {
+     "cmd": "text",
+     "side": "",
+     "face": -1,
+     "arg": -1,
+     "cond": "",
+     "mode": "",
+     "speaker": "",
+     "text": "쳐부수면서 가면 되잖아 ？］",
+     "clear": false,
+     "wait": true
+    },
+    {
+     "cmd": "portrait",
+     "side": "right",
+     "face": -1,
+     "arg": 5,
+     "cond": "",
+     "mode": "",
+     "speaker": "",
+     "text": "",
+     "clear": false,
+     "wait": false
+    },
+    {
+     "cmd": "text",
+     "side": "",
+     "face": -1,
+     "arg": 5,
+     "cond": "",
+     "mode": "",
+     "speaker": "unitName",
+     "text": "［아무 것도 계획하지 말고 되는대로 가세.］",
+     "clear": false,
+     "wait": true
+    },
+    {
+     "cmd": "portrait",
+     "side": "left",
+     "face": -1,
+     "arg": 3,
+     "cond": "",
+     "mode": "",
+     "speaker": "",
+     "text": "",
+     "clear": false,
+     "wait": false
+    },
+    {
+     "cmd": "text",
+     "side": "",
+     "face": -1,
+     "arg": 3,
+     "cond": "",
+     "mode": "",
+     "speaker": "unitName",
+     "text": "［어이　．．．몇 명인가",
+     "clear": false,
+     "wait": false
+    },
+    {
+     "cmd": "text",
+     "side": "",
+     "face": -1,
+     "arg": -1,
+     "cond": "",
+     "mode": "",
+     "speaker": "",
+     "text": "일행을 놓쳐버려서 모습이 보이지 않는데.］",
+     "clear": false,
+     "wait": true
+    },
+    {
+     "cmd": "portrait",
+     "side": "right",
+     "face": -1,
+     "arg": 2,
+     "cond": "",
+     "mode": "",
+     "speaker": "",
+     "text": "",
+     "clear": false,
+     "wait": false
+    },
+    {
+     "cmd": "text",
+     "side": "",
+     "face": -1,
+     "arg": 2,
+     "cond": "",
+     "mode": "",
+     "speaker": "unitName",
+     "text": "［．．．．．．．．．］",
+     "clear": false,
+     "wait": true
+    },
+    {
+     "cmd": "portrait",
+     "side": "left",
+     "face": -1,
+     "arg": 0,
+     "cond": "",
+     "mode": "",
+     "speaker": "",
+     "text": "",
+     "clear": false,
+     "wait": false
+    },
+    {
+     "cmd": "text",
+     "side": "",
+     "face": -1,
+     "arg": 0,
+     "cond": "",
+     "mode": "",
+     "speaker": "unitName",
+     "text": "［아무래도 여기있는 악마 군단을",
+     "clear": false,
+     "wait": false
+    },
+    {
+     "cmd": "text",
+     "side": "",
+     "face": -1,
+     "arg": -1,
+     "cond": "",
+     "mode": "",
+     "speaker": "",
+     "text": "쓰러뜨리지 않으면",
+     "clear": false,
+     "wait": false
+    },
+    {
+     "cmd": "text",
+     "side": "",
+     "face": -1,
+     "arg": -1,
+     "cond": "",
+     "mode": "",
+     "speaker": "",
+     "text": "나아갈 수 없을 것 같아 ．．．］",
+     "clear": false,
+     "wait": true
+    },
+    {
+     "cmd": "end",
+     "side": "",
+     "face": -1,
+     "arg": -1,
+     "cond": "",
+     "mode": "e",
+     "speaker": "",
+     "text": "",
+     "clear": false,
+     "wait": false
+    }
+   ]
+  },
+  {
+   "id": "a",
+   "commands": [
+    {
+     "cmd": "text",
+     "side": "",
+     "face": -1,
+     "arg": 0,
+     "cond": "",
+     "mode": "",
+     "speaker": "argString",
+     "text": "［알고 있나 ？ 꽃밭이나",
+     "clear": false,
+     "wait": false
+    },
+    {
+     "cmd": "text",
+     "side": "",
+     "face": -1,
+     "arg": -1,
+     "cond": "",
+     "mode": "",
+     "speaker": "",
+     "text": "조금 다른 곳에 가면 여러 가지 좋은",
+     "clear": false,
+     "wait": false
+    },
+    {
+     "cmd": "text",
+     "side": "",
+     "face": -1,
+     "arg": -1,
+     "cond": "",
+     "mode": "",
+     "speaker": "",
+     "text": "것을 손에 넣을 수가 있을 것같다네.］",
+     "clear": false,
+     "wait": true
+    },
+    {
+     "cmd": "end",
+     "side": "",
+     "face": -1,
+     "arg": -1,
+     "cond": "",
+     "mode": "e",
+     "speaker": "",
+     "text": "",
+     "clear": false,
+     "wait": false
+    }
+   ]
+  },
+  {
+   "id": "b",
+   "commands": [
+    {
+     "cmd": "text",
+     "side": "",
+     "face": -1,
+     "arg": 0,
+     "cond": "",
+     "mode": "",
+     "speaker": "argString",
+     "text": "［또 한개 무기가 있었던 것 같은데.",
+     "clear": false,
+     "wait": false
+    },
+    {
+     "cmd": "text",
+     "side": "",
+     "face": -1,
+     "arg": -1,
+     "cond": "",
+     "mode": "",
+     "speaker": "",
+     "text": "정령이 봉해진 강력한 것이지만 조금",
+     "clear": false,
+     "wait": false
+    },
+    {
+     "cmd": "text",
+     "side": "",
+     "face": -1,
+     "arg": -1,
+     "cond": "",
+     "mode": "",
+     "speaker": "",
+     "text": "전에 누군가가 훔쳐가 버렸다네.  k도대체 어디로 가 버렸단 말인가 ．．．］",
+     "clear": false,
+     "wait": false
+    },
+    {
+     "cmd": "end",
+     "side": "",
+     "face": -1,
+     "arg": -1,
+     "cond": "",
+     "mode": "e",
+     "speaker": "",
+     "text": "",
+     "clear": false,
+     "wait": false
+    }
+   ]
+  },
+  {
+   "id": "c",
+   "commands": [
+    {
+     "cmd": "text",
+     "side": "",
+     "face": -1,
+     "arg": 0,
+     "cond": "",
+     "mode": "",
+     "speaker": "argString",
+     "text": "［봤다요！ 성 옆을 지나 갔을 때",
+     "clear": false,
+     "wait": false
+    },
+    {
+     "cmd": "text",
+     "side": "",
+     "face": -1,
+     "arg": -1,
+     "cond": "",
+     "mode": "",
+     "speaker": "",
+     "text": "괴물이 벽 위에서 여기를 노려보고 있었다요.",
+     "clear": false,
+     "wait": false
+    },
+    {
+     "cmd": "text",
+     "side": "",
+     "face": -1,
+     "arg": -1,
+     "cond": "",
+     "mode": "",
+     "speaker": "",
+     "text": "어어！ 도대체 뭐지？！］",
+     "clear": false,
+     "wait": true
+    },
+    {
+     "cmd": "end",
+     "side": "",
+     "face": -1,
+     "arg": -1,
+     "cond": "",
+     "mode": "e",
+     "speaker": "",
+     "text": "",
+     "clear": false,
+     "wait": false
+    }
+   ]
+  },
+  {
+   "id": "z",
+   "commands": [
+    {
+     "cmd": "portrait",
+     "side": "left",
+     "face": -1,
+     "arg": 0,
+     "cond": "",
+     "mode": "",
+     "speaker": "",
+     "text": "",
+     "clear": false,
+     "wait": false
+    },
+    {
+     "cmd": "text",
+     "side": "",
+     "face": -1,
+     "arg": 0,
+     "cond": "",
+     "mode": "",
+     "speaker": "unitName",
+     "text": "［이것으로 이 근처의 악마 군단은 전멸이다.］",
+     "clear": false,
+     "wait": true
+    },
+    {
+     "cmd": "portrait",
+     "side": "right",
+     "face": -1,
+     "arg": 1,
+     "cond": "",
+     "mode": "",
+     "speaker": "",
+     "text": "",
+     "clear": false,
+     "wait": false
+    },
+    {
+     "cmd": "text",
+     "side": "",
+     "face": -1,
+     "arg": 1,
+     "cond": "",
+     "mode": "",
+     "speaker": "unitName",
+     "text": "［그러면 지름길을 찾으러 갈까.",
+     "clear": false,
+     "wait": true
+    },
+    {
+     "cmd": "portrait",
+     "side": "left",
+     "face": -1,
+     "arg": 2,
+     "cond": "",
+     "mode": "",
+     "speaker": "",
+     "text": "",
+     "clear": false,
+     "wait": false
+    },
+    {
+     "cmd": "text",
+     "side": "",
+     "face": -1,
+     "arg": 2,
+     "cond": "",
+     "mode": "",
+     "speaker": "unitName",
+     "text": "길을 잃은 군대로군 ．．．아이고！］",
+     "clear": false,
+     "wait": true
+    },
+    {
+     "cmd": "end",
+     "side": "",
+     "face": -1,
+     "arg": -1,
+     "cond": "",
+     "mode": "e",
+     "speaker": "",
+     "text": "",
+     "clear": false,
+     "wait": false
+    }
+   ]
+  }
+ ]
+}

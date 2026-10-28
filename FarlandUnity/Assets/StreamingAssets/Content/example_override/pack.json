@@ -1,0 +1,7 @@
+{
+ "id": "example_override",
+ "name": "교체 예시",
+ "priority": 10,
+ "enabled": false,
+ "description": "enabled 를 true 로 바꾸면 이 팩의 파일이 base 를 덮어쓴다. 같은 상대 경로에 PNG·OGG·JSON 을 넣으면 된다."
+}

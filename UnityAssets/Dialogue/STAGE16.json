@@ -1,0 +1,82 @@
+{
+ "name": "STAGE16",
+ "blocks": [
+  {
+   "id": "1",
+   "commands": [
+    {
+     "cmd": "portrait",
+     "side": "left",
+     "face": 4,
+     "arg": -1,
+     "cond": "",
+     "mode": "",
+     "speaker": "",
+     "text": "",
+     "clear": false,
+     "wait": false
+    },
+    {
+     "cmd": "text",
+     "side": "",
+     "face": -1,
+     "arg": 0,
+     "cond": "",
+     "mode": "",
+     "speaker": "unitName",
+     "text": "［훼리오를 어디로 끌고 갔는지 말해라 ！］",
+     "clear": false,
+     "wait": true
+    },
+    {
+     "cmd": "portrait",
+     "side": "right",
+     "face": 24,
+     "arg": -1,
+     "cond": "",
+     "mode": "",
+     "speaker": "",
+     "text": "",
+     "clear": false,
+     "wait": false
+    },
+    {
+     "cmd": "text",
+     "side": "",
+     "face": -1,
+     "arg": 1,
+     "cond": "",
+     "mode": "",
+     "speaker": "unitName",
+     "text": "［그 애는 왕도 휄사리아요.",
+     "clear": false,
+     "wait": false
+    },
+    {
+     "cmd": "text",
+     "side": "",
+     "face": -1,
+     "arg": -1,
+     "cond": "",
+     "mode": "",
+     "speaker": "",
+     "text": "구해내고 싶으면 거기까지 가야한다 ！］",
+     "clear": false,
+     "wait": true
+    },
+    {
+     "cmd": "end",
+     "side": "",
+     "face": -1,
+     "arg": -1,
+     "cond": "",
+     "mode": "e",
+     "speaker": "",
+     "text": "",
+     "clear": false,
+     "wait": false
+    }
+   ]
+  }
+ ]
+}

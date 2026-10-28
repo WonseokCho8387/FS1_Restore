@@ -1,0 +1,2364 @@
+{
+ "hooks": {
+  "0": "stageInit (0x5B7E, 스테이지 준비)",
+  "1": "stageStart (0x536A, 개시 대화 '9')",
+  "2": "unitAction (0x9DDC, 이동/접촉 판정)",
+  "3": "unitAction2 (0x9E3C)",
+  "4": "turnCheck (0xA0A1 등)",
+  "5": "battleEvent (0xB0B6 등, 교전 중 대사)",
+  "6": "stageEnd (0xB2BB 등, 격파·종료 대사 'z')"
+ },
+ "calls": [
+  {
+   "call": "0x5a14",
+   "function": "0x589a",
+   "event": "STAGE53#4",
+   "args": [],
+   "stageHints": [],
+   "stage": [],
+   "hook": []
+  },
+  {
+   "call": "0x9ea6",
+   "function": "0x9bad",
+   "event": "ax",
+   "args": [
+    "unit[0]",
+    "dx"
+   ],
+   "stageHints": [
+    14
+   ],
+   "stage": [],
+   "hook": []
+  },
+  {
+   "call": "0xb3ef",
+   "function": "0xb3ca",
+   "event": "ax",
+   "args": [
+    "[si]",
+    "di",
+    "si"
+   ],
+   "stageHints": [],
+   "stage": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "hook": [
+    3
+   ]
+  },
+  {
+   "call": "0xb70f",
+   "function": "0xb51e",
+   "event": "1",
+   "args": [
+    "[bp + 6]"
+   ],
+   "stageHints": [],
+   "stage": [],
+   "hook": []
+  },
+  {
+   "call": "0xc8cc",
+   "function": "0xc146",
+   "event": "STAGE52#9",
+   "args": [
+    "[bp + 6]"
+   ],
+   "stageHints": [],
+   "stage": [],
+   "hook": []
+  },
+  {
+   "call": "0xcb5b",
+   "function": "0xc146",
+   "event": "STAGE52#9",
+   "args": [
+    "[bp + 6]"
+   ],
+   "stageHints": [],
+   "stage": [],
+   "hook": []
+  },
+  {
+   "call": "0xcba3",
+   "function": "0xc146",
+   "event": "[bx]",
+   "args": [
+    "0x22f8",
+    "0x22fd"
+   ],
+   "stageHints": [],
+   "stage": [],
+   "hook": []
+  },
+  {
+   "call": "0x10dbb",
+   "function": "0x10bed",
+   "event": "0",
+   "args": [
+    "unit[4]",
+    "unit[3]"
+   ],
+   "stageHints": [],
+   "stage": [
+    1
+   ],
+   "hook": [
+    "prologue"
+   ]
+  },
+  {
+   "call": "0x10dfc",
+   "function": "0x10bed",
+   "event": "1",
+   "args": [
+    "unit[4]",
+    "unit[3]"
+   ],
+   "stageHints": [],
+   "stage": [
+    1
+   ],
+   "hook": [
+    "prologue"
+   ]
+  },
+  {
+   "call": "0x10e61",
+   "function": "0x10bed",
+   "event": "2",
+   "args": [
+    "unit[4]",
+    "unit[3]",
+    "unit[18]",
+    "unit[19]"
+   ],
+   "stageHints": [],
+   "stage": [
+    1
+   ],
+   "hook": [
+    "prologue"
+   ]
+  },
+  {
+   "call": "0x10f17",
+   "function": "0x10bed",
+   "event": "3",
+   "args": [
+    "unit[0]",
+    "unit[1]"
+   ],
+   "stageHints": [],
+   "stage": [
+    1
+   ],
+   "hook": [
+    "prologue"
+   ]
+  },
+  {
+   "call": "0x10f65",
+   "function": "0x10bed",
+   "event": "4",
+   "args": [
+    "unit[0]",
+    "unit[1]",
+    "unit[2]"
+   ],
+   "stageHints": [],
+   "stage": [
+    1
+   ],
+   "hook": [
+    "prologue"
+   ]
+  },
+  {
+   "call": "0x11073",
+   "function": "0x1104c",
+   "event": "z",
+   "args": [
+    "si",
+    "unit[0]",
+    "unit[1]",
+    "unit[2]",
+    "si"
+   ],
+   "stageHints": [],
+   "stage": [
+    1
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x110d5",
+   "function": "0x110c0",
+   "event": "5",
+   "args": [
+    "si",
+    "di",
+    "di",
+    "si",
+    "bp"
+   ],
+   "stageHints": [],
+   "stage": [
+    1
+   ],
+   "hook": [
+    5
+   ]
+  },
+  {
+   "call": "0x11134",
+   "function": "0x110ff",
+   "event": "6",
+   "args": [
+    "si",
+    "unit[0]",
+    "unit[1]"
+   ],
+   "stageHints": [],
+   "stage": [
+    1
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x115ab",
+   "function": "0x1158a",
+   "event": "ax",
+   "args": [
+    "di",
+    "di",
+    "si"
+   ],
+   "stageHints": [],
+   "stage": [],
+   "hook": []
+  },
+  {
+   "call": "0x11767",
+   "function": "0x116b8",
+   "event": "@",
+   "args": [],
+   "stageHints": [],
+   "stage": [
+    99
+   ],
+   "hook": [
+    "epilogue"
+   ]
+  },
+  {
+   "call": "0x11813",
+   "function": "0x116b8",
+   "event": "0",
+   "args": [
+    "unit[7]",
+    "unit[6]"
+   ],
+   "stageHints": [],
+   "stage": [
+    99
+   ],
+   "hook": [
+    "epilogue"
+   ]
+  },
+  {
+   "call": "0x118bb",
+   "function": "0x116b8",
+   "event": "a",
+   "args": [
+    "unit[13]",
+    "0x5e7f"
+   ],
+   "stageHints": [],
+   "stage": [
+    99
+   ],
+   "hook": [
+    "epilogue"
+   ]
+  },
+  {
+   "call": "0x11978",
+   "function": "0x116b8",
+   "event": "1",
+   "args": [
+    "unit[11]",
+    "unit[10]"
+   ],
+   "stageHints": [],
+   "stage": [
+    99
+   ],
+   "hook": [
+    "epilogue"
+   ]
+  },
+  {
+   "call": "0x119ff",
+   "function": "0x116b8",
+   "event": "2",
+   "args": [
+    "unit[11]"
+   ],
+   "stageHints": [],
+   "stage": [
+    99
+   ],
+   "hook": [
+    "epilogue"
+   ]
+  },
+  {
+   "call": "0x11a66",
+   "function": "0x116b8",
+   "event": "3",
+   "args": [
+    "unit[10]",
+    "unit[11]"
+   ],
+   "stageHints": [],
+   "stage": [
+    99
+   ],
+   "hook": [
+    "epilogue"
+   ]
+  },
+  {
+   "call": "0x11aa1",
+   "function": "0x116b8",
+   "event": "4",
+   "args": [
+    "unit[9]"
+   ],
+   "stageHints": [],
+   "stage": [
+    99
+   ],
+   "hook": [
+    "epilogue"
+   ]
+  },
+  {
+   "call": "0x11b57",
+   "function": "0x116b8",
+   "event": "b",
+   "args": [
+    "unit[12]",
+    "unit[5]"
+   ],
+   "stageHints": [],
+   "stage": [
+    99
+   ],
+   "hook": [
+    "epilogue"
+   ]
+  },
+  {
+   "call": "0x11c53",
+   "function": "0x116b8",
+   "event": "c",
+   "args": [
+    "unit[8]",
+    "0x5e89",
+    "0x5e94"
+   ],
+   "stageHints": [],
+   "stage": [
+    99
+   ],
+   "hook": [
+    "epilogue"
+   ]
+  },
+  {
+   "call": "0x11d6f",
+   "function": "0x116b8",
+   "event": "g",
+   "args": [
+    "unit[3]"
+   ],
+   "stageHints": [],
+   "stage": [
+    99
+   ],
+   "hook": [
+    "epilogue"
+   ]
+  },
+  {
+   "call": "0x11dc7",
+   "function": "0x116b8",
+   "event": "h",
+   "args": [
+    "unit[4]"
+   ],
+   "stageHints": [],
+   "stage": [
+    99
+   ],
+   "hook": [
+    "epilogue"
+   ]
+  },
+  {
+   "call": "0x11f22",
+   "function": "0x116b8",
+   "event": "d",
+   "args": [
+    "unit[14]"
+   ],
+   "stageHints": [],
+   "stage": [
+    99
+   ],
+   "hook": [
+    "epilogue"
+   ]
+  },
+  {
+   "call": "0x11f99",
+   "function": "0x116b8",
+   "event": "e",
+   "args": [
+    "unit[2]",
+    "unit[14]"
+   ],
+   "stageHints": [],
+   "stage": [
+    99
+   ],
+   "hook": [
+    "epilogue"
+   ]
+  },
+  {
+   "call": "0x11fbd",
+   "function": "0x116b8",
+   "event": "f",
+   "args": [
+    "unit[14]"
+   ],
+   "stageHints": [],
+   "stage": [
+    99
+   ],
+   "hook": [
+    "epilogue"
+   ]
+  },
+  {
+   "call": "0x12066",
+   "function": "0x116b8",
+   "event": "h",
+   "args": [
+    "unit[4]"
+   ],
+   "stageHints": [],
+   "stage": [
+    99
+   ],
+   "hook": [
+    "epilogue"
+   ]
+  },
+  {
+   "call": "0x12136",
+   "function": "0x116b8",
+   "event": "x",
+   "args": [
+    "unit[0]",
+    "unit[15]",
+    "unit[1]",
+    "0x5e99"
+   ],
+   "stageHints": [],
+   "stage": [
+    99
+   ],
+   "hook": [
+    "epilogue"
+   ]
+  },
+  {
+   "call": "0x1216d",
+   "function": "0x116b8",
+   "event": "y",
+   "args": [
+    "unit[0]",
+    "unit[15]",
+    "unit[1]"
+   ],
+   "stageHints": [],
+   "stage": [
+    99
+   ],
+   "hook": [
+    "epilogue"
+   ]
+  },
+  {
+   "call": "0x12197",
+   "function": "0x116b8",
+   "event": "z",
+   "args": [
+    "unit[0]",
+    "unit[15]",
+    "unit[1]"
+   ],
+   "stageHints": [],
+   "stage": [
+    99
+   ],
+   "hook": [
+    "epilogue"
+   ]
+  },
+  {
+   "call": "0x1260c",
+   "function": "0x125f7",
+   "event": "5",
+   "args": [
+    "unit[0]",
+    "unit[1]",
+    "unit[2]",
+    "bp"
+   ],
+   "stageHints": [],
+   "stage": [
+    2
+   ],
+   "hook": [
+    1
+   ]
+  },
+  {
+   "call": "0x1276c",
+   "function": "0x12704",
+   "event": "6",
+   "args": [
+    "si"
+   ],
+   "stageHints": [],
+   "stage": [
+    2
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x12808",
+   "function": "0x127d6",
+   "event": "3",
+   "args": [
+    "unit[18]",
+    "di",
+    "si",
+    "di",
+    "si",
+    "bp"
+   ],
+   "stageHints": [],
+   "stage": [
+    2
+   ],
+   "hook": [
+    5
+   ]
+  },
+  {
+   "call": "0x12826",
+   "function": "0x127d6",
+   "event": "2",
+   "args": [
+    "di",
+    "si"
+   ],
+   "stageHints": [],
+   "stage": [
+    2
+   ],
+   "hook": [
+    5
+   ]
+  },
+  {
+   "call": "0x1288b",
+   "function": "0x1284f",
+   "event": "0",
+   "args": [
+    "unit[1]",
+    "unit[3]"
+   ],
+   "stageHints": [],
+   "stage": [
+    2
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x128b9",
+   "function": "0x1284f",
+   "event": "4",
+   "args": [
+    "si",
+    "unit[2]"
+   ],
+   "stageHints": [],
+   "stage": [
+    2
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x128f6",
+   "function": "0x1284f",
+   "event": "z",
+   "args": [
+    "[bp + 6]",
+    "si",
+    "unit[1]"
+   ],
+   "stageHints": [],
+   "stage": [
+    2
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x1295b",
+   "function": "0x1284f",
+   "event": "1",
+   "args": [
+    "unit[18]",
+    "[bp + 6]",
+    "unit[0]",
+    "unit[1]",
+    "unit[2]"
+   ],
+   "stageHints": [],
+   "stage": [
+    2
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x129bb",
+   "function": "0x129a6",
+   "event": "2",
+   "args": [
+    "unit[0]",
+    "unit[4]",
+    "di",
+    "si"
+   ],
+   "stageHints": [],
+   "stage": [
+    3
+   ],
+   "hook": [
+    1
+   ]
+  },
+  {
+   "call": "0x12a60",
+   "function": "0x129a6",
+   "event": "3",
+   "args": [
+    "di"
+   ],
+   "stageHints": [],
+   "stage": [
+    3
+   ],
+   "hook": [
+    1
+   ]
+  },
+  {
+   "call": "0x12a86",
+   "function": "0x129a6",
+   "event": "4",
+   "args": [
+    "[0x2d12]"
+   ],
+   "stageHints": [],
+   "stage": [
+    3
+   ],
+   "hook": [
+    1
+   ]
+  },
+  {
+   "call": "0x12b51",
+   "function": "0x12b3c",
+   "event": "0",
+   "args": [
+    "si",
+    "di",
+    "di",
+    "si",
+    "bp"
+   ],
+   "stageHints": [],
+   "stage": [
+    3
+   ],
+   "hook": [
+    5
+   ]
+  },
+  {
+   "call": "0x12bb9",
+   "function": "0x12b7b",
+   "event": "1",
+   "args": [
+    "unit[0]",
+    "unit[5]",
+    "unit[1]"
+   ],
+   "stageHints": [],
+   "stage": [
+    3
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x12c0d",
+   "function": "0x12b7b",
+   "event": "z",
+   "args": [
+    "si",
+    "unit[1]",
+    "unit[0]"
+   ],
+   "stageHints": [],
+   "stage": [
+    3
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x12c4f",
+   "function": "0x12c3a",
+   "event": "9",
+   "args": [
+    "unit[0]",
+    "unit[4]",
+    "unit[1]",
+    "bp"
+   ],
+   "stageHints": [],
+   "stage": [
+    4
+   ],
+   "hook": [
+    1
+   ]
+  },
+  {
+   "call": "0x12dff",
+   "function": "0x12dc8",
+   "event": "5",
+   "args": [
+    "di",
+    "ax",
+    "di",
+    "si",
+    "bp"
+   ],
+   "stageHints": [],
+   "stage": [
+    4
+   ],
+   "hook": [
+    5
+   ]
+  },
+  {
+   "call": "0x12e80",
+   "function": "0x12e3e",
+   "event": "1",
+   "args": [
+    "[bp + 6]",
+    "unit[6]"
+   ],
+   "stageHints": [],
+   "stage": [
+    4
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x12ed1",
+   "function": "0x12e3e",
+   "event": "2",
+   "args": [
+    "[bp + 6]"
+   ],
+   "stageHints": [],
+   "stage": [
+    4
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x12f0f",
+   "function": "0x12e3e",
+   "event": "3",
+   "args": [
+    "unit[6]"
+   ],
+   "stageHints": [],
+   "stage": [
+    4
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x12f54",
+   "function": "0x12e3e",
+   "event": "4",
+   "args": [
+    "si"
+   ],
+   "stageHints": [],
+   "stage": [
+    4
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x12f75",
+   "function": "0x12e3e",
+   "event": "0",
+   "args": [
+    "si"
+   ],
+   "stageHints": [],
+   "stage": [
+    4
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x12fa7",
+   "function": "0x12e3e",
+   "event": "z",
+   "args": [
+    "unit[7]",
+    "unit[6]",
+    "unit[4]",
+    "unit[0]"
+   ],
+   "stageHints": [],
+   "stage": [
+    4
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x12fed",
+   "function": "0x12fd5",
+   "event": "9",
+   "args": [
+    "unit[0]",
+    "unit[7]",
+    "unit[4]",
+    "unit[1]",
+    "bp"
+   ],
+   "stageHints": [],
+   "stage": [
+    5
+   ],
+   "hook": [
+    1
+   ]
+  },
+  {
+   "call": "0x13059",
+   "function": "0x13010",
+   "event": "1",
+   "args": [
+    "si"
+   ],
+   "stageHints": [],
+   "stage": [
+    5
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x130f3",
+   "function": "0x13010",
+   "event": "2",
+   "args": [
+    "si",
+    "ax"
+   ],
+   "stageHints": [],
+   "stage": [
+    5
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x13136",
+   "function": "0x13010",
+   "event": "0",
+   "args": [
+    "si"
+   ],
+   "stageHints": [],
+   "stage": [
+    5
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x1315c",
+   "function": "0x13010",
+   "event": "5",
+   "args": [
+    "si"
+   ],
+   "stageHints": [],
+   "stage": [
+    5
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x13233",
+   "function": "0x13010",
+   "event": "6",
+   "args": [
+    "si"
+   ],
+   "stageHints": [],
+   "stage": [
+    5
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x13300",
+   "function": "0x132ec",
+   "event": "3",
+   "args": [
+    "si",
+    "di",
+    "si",
+    "bp"
+   ],
+   "stageHints": [],
+   "stage": [
+    5
+   ],
+   "hook": [
+    5
+   ]
+  },
+  {
+   "call": "0x1336d",
+   "function": "0x1332a",
+   "event": "4",
+   "args": [
+    "di",
+    "unit[8]"
+   ],
+   "stageHints": [],
+   "stage": [
+    5
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x13390",
+   "function": "0x1332a",
+   "event": "7",
+   "args": [
+    "di"
+   ],
+   "stageHints": [],
+   "stage": [
+    5
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x133c0",
+   "function": "0x1332a",
+   "event": "z",
+   "args": [
+    "si",
+    "unit[0]"
+   ],
+   "stageHints": [],
+   "stage": [
+    5
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x13403",
+   "function": "0x133ee",
+   "event": "9",
+   "args": [
+    "unit[0]",
+    "unit[2]",
+    "unit[1]",
+    "bp"
+   ],
+   "stageHints": [],
+   "stage": [
+    6
+   ],
+   "hook": [
+    1
+   ]
+  },
+  {
+   "call": "0x1347f",
+   "function": "0x13426",
+   "event": "ax",
+   "args": [
+    "di",
+    "si"
+   ],
+   "stageHints": [],
+   "stage": [
+    6
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x134c5",
+   "function": "0x13426",
+   "event": "ax",
+   "args": [
+    "di",
+    "si"
+   ],
+   "stageHints": [],
+   "stage": [
+    6
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x13512",
+   "function": "0x13426",
+   "event": "5",
+   "args": [
+    "di",
+    "unit[10]",
+    "unit[4]",
+    "unit[0]",
+    "unit[11]"
+   ],
+   "stageHints": [],
+   "stage": [
+    6
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x1356e",
+   "function": "0x13426",
+   "event": "A",
+   "args": [
+    "di",
+    "unit[10]",
+    "unit[9]"
+   ],
+   "stageHints": [],
+   "stage": [
+    6
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x1361e",
+   "function": "0x13426",
+   "event": "B",
+   "args": [
+    "unit[10]",
+    "unit[0]"
+   ],
+   "stageHints": [],
+   "stage": [
+    6
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x136a4",
+   "function": "0x1368a",
+   "event": "6",
+   "args": [
+    "si",
+    "si",
+    "bp"
+   ],
+   "stageHints": [],
+   "stage": [
+    6
+   ],
+   "hook": [
+    5
+   ]
+  },
+  {
+   "call": "0x136c9",
+   "function": "0x1368a",
+   "event": "C",
+   "args": [
+    "unit[9]"
+   ],
+   "stageHints": [],
+   "stage": [
+    6
+   ],
+   "hook": [
+    5
+   ]
+  },
+  {
+   "call": "0x136de",
+   "function": "0x1368a",
+   "event": "7",
+   "args": [
+    "[bp + 6]",
+    "unit[10]"
+   ],
+   "stageHints": [],
+   "stage": [
+    6
+   ],
+   "hook": [
+    5
+   ]
+  },
+  {
+   "call": "0x13747",
+   "function": "0x13707",
+   "event": "8",
+   "args": [
+    "di",
+    "unit[9]",
+    "unit[4]"
+   ],
+   "stageHints": [],
+   "stage": [
+    6
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x13795",
+   "function": "0x13707",
+   "event": "z",
+   "args": [
+    "di",
+    "unit[10]",
+    "unit[0]",
+    "unit[4]"
+   ],
+   "stageHints": [],
+   "stage": [
+    6
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x137d6",
+   "function": "0x137c3",
+   "event": "9",
+   "args": [
+    "unit[0]",
+    "unit[10]",
+    "si",
+    "bp"
+   ],
+   "stageHints": [],
+   "stage": [
+    7
+   ],
+   "hook": [
+    1
+   ]
+  },
+  {
+   "call": "0x13900",
+   "function": "0x138cf",
+   "event": "0",
+   "args": [
+    "[bp + 6]",
+    "di",
+    "si",
+    "bp"
+   ],
+   "stageHints": [],
+   "stage": [
+    7
+   ],
+   "hook": [
+    5
+   ]
+  },
+  {
+   "call": "0x1391a",
+   "function": "0x138cf",
+   "event": "1",
+   "args": [
+    "[bp + 6]",
+    "si"
+   ],
+   "stageHints": [],
+   "stage": [
+    7
+   ],
+   "hook": [
+    5
+   ]
+  },
+  {
+   "call": "0x13948",
+   "function": "0x138cf",
+   "event": "2",
+   "args": [
+    "[bp + 6]",
+    "si"
+   ],
+   "stageHints": [],
+   "stage": [
+    7
+   ],
+   "hook": [
+    5
+   ]
+  },
+  {
+   "call": "0x139ab",
+   "function": "0x13972",
+   "event": "ax",
+   "args": [
+    "[bp + 6]",
+    "di",
+    "si"
+   ],
+   "stageHints": [],
+   "stage": [
+    7
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x139e6",
+   "function": "0x13972",
+   "event": "5",
+   "args": [
+    "[bp + 6]",
+    "si"
+   ],
+   "stageHints": [],
+   "stage": [
+    7
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x13a34",
+   "function": "0x13972",
+   "event": "6",
+   "args": [
+    "[bp + 6]",
+    "si"
+   ],
+   "stageHints": [],
+   "stage": [
+    7
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x13ab4",
+   "function": "0x13972",
+   "event": "z",
+   "args": [
+    "[bp + 6]",
+    "si",
+    "unit[12]",
+    "unit[0]",
+    "unit[10]"
+   ],
+   "stageHints": [],
+   "stage": [
+    7
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x13af6",
+   "function": "0x13ae2",
+   "event": "9",
+   "args": [
+    "unit[0]",
+    "unit[1]",
+    "si"
+   ],
+   "stageHints": [],
+   "stage": [
+    8
+   ],
+   "hook": [
+    1
+   ]
+  },
+  {
+   "call": "0x13b33",
+   "function": "0x13ae2",
+   "event": "2",
+   "args": [
+    "[bp - 2]",
+    "0x5fa7"
+   ],
+   "stageHints": [],
+   "stage": [
+    8
+   ],
+   "hook": [
+    1
+   ]
+  },
+  {
+   "call": "0x13bc6",
+   "function": "0x13b97",
+   "event": "4",
+   "args": [
+    "[0x5f70]"
+   ],
+   "stageHints": [],
+   "stage": [
+    8
+   ],
+   "hook": [
+    3
+   ]
+  },
+  {
+   "call": "0x13c02",
+   "function": "0x13b97",
+   "event": "3",
+   "args": [
+    "[0x5f70]",
+    "0x35",
+    "[0x5f70]"
+   ],
+   "stageHints": [],
+   "stage": [
+    8
+   ],
+   "hook": [
+    3
+   ]
+  },
+  {
+   "call": "0x13cf8",
+   "function": "0x13ce5",
+   "event": "0",
+   "args": [
+    "[bp + 6]",
+    "si",
+    "si",
+    "bp"
+   ],
+   "stageHints": [],
+   "stage": [
+    8
+   ],
+   "hook": [
+    5
+   ]
+  },
+  {
+   "call": "0x13d4e",
+   "function": "0x13d21",
+   "event": "1",
+   "args": [
+    "di",
+    "[0x5f70]",
+    "di",
+    "si",
+    "bp"
+   ],
+   "stageHints": [],
+   "stage": [
+    8
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x13d8e",
+   "function": "0x13d21",
+   "event": "5",
+   "args": [
+    "[0x5f70]"
+   ],
+   "stageHints": [],
+   "stage": [
+    8
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x13dce",
+   "function": "0x13d21",
+   "event": "z",
+   "args": [
+    "di",
+    "unit[13]",
+    "unit[0]"
+   ],
+   "stageHints": [],
+   "stage": [
+    8
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x13e20",
+   "function": "0x13e08",
+   "event": "9",
+   "args": [
+    "unit[0]",
+    "unit[4]",
+    "unit[10]",
+    "unit[1]",
+    "bp"
+   ],
+   "stageHints": [],
+   "stage": [
+    9
+   ],
+   "hook": [
+    1
+   ]
+  },
+  {
+   "call": "0x13e6e",
+   "function": "0x13e43",
+   "event": "A",
+   "args": [
+    "si",
+    "di",
+    "si"
+   ],
+   "stageHints": [],
+   "stage": [
+    9
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x13f61",
+   "function": "0x13e43",
+   "event": "0",
+   "args": [
+    "si"
+   ],
+   "stageHints": [],
+   "stage": [
+    9
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x13f76",
+   "function": "0x13e43",
+   "event": "1",
+   "args": [
+    "si",
+    "[0x5fba]"
+   ],
+   "stageHints": [],
+   "stage": [
+    9
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x13fac",
+   "function": "0x13e43",
+   "event": "8",
+   "args": [
+    "unit[0]",
+    "unit[18]",
+    "unit[4]",
+    "unit[10]"
+   ],
+   "stageHints": [],
+   "stage": [
+    9
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x13fe2",
+   "function": "0x13e43",
+   "event": "2",
+   "args": [
+    "[0x5fba]",
+    "unit[0]",
+    "unit[18]"
+   ],
+   "stageHints": [],
+   "stage": [
+    9
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x14025",
+   "function": "0x13e43",
+   "event": "3",
+   "args": [
+    "si",
+    "unit[0]",
+    "unit[18]",
+    "[bp - 4]"
+   ],
+   "stageHints": [],
+   "stage": [
+    9
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x1403e",
+   "function": "0x13e43",
+   "event": "4",
+   "args": [
+    "si",
+    "unit[0]",
+    "unit[18]",
+    "[bp - 4]"
+   ],
+   "stageHints": [],
+   "stage": [
+    9
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x14065",
+   "function": "0x13e43",
+   "event": "5",
+   "args": [
+    "unit[0]",
+    "[bp - 4]"
+   ],
+   "stageHints": [],
+   "stage": [
+    9
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x140dd",
+   "function": "0x1407d",
+   "event": "B",
+   "args": [
+    "si"
+   ],
+   "stageHints": [],
+   "stage": [
+    9
+   ],
+   "hook": [
+    4
+   ]
+  },
+  {
+   "call": "0x1418e",
+   "function": "0x14144",
+   "event": "6",
+   "args": [
+    "unit[2]",
+    "di",
+    "unit[0]"
+   ],
+   "stageHints": [],
+   "stage": [
+    9
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x141c7",
+   "function": "0x14144",
+   "event": "7",
+   "args": [
+    "[bp + 6]",
+    "di",
+    "unit[0]"
+   ],
+   "stageHints": [],
+   "stage": [
+    9
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x14207",
+   "function": "0x14144",
+   "event": "z",
+   "args": [
+    "unit[0]",
+    "si",
+    "unit[4]",
+    "unit[2]",
+    "[bp + 6]"
+   ],
+   "stageHints": [],
+   "stage": [
+    9
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x1424d",
+   "function": "0x14235",
+   "event": "9",
+   "args": [
+    "unit[0]",
+    "unit[4]",
+    "unit[3]",
+    "unit[10]",
+    "bp"
+   ],
+   "stageHints": [],
+   "stage": [
+    10
+   ],
+   "hook": [
+    1
+   ]
+  },
+  {
+   "call": "0x1426f",
+   "function": "0x14235",
+   "event": "1",
+   "args": [
+    "[0x2d16]"
+   ],
+   "stageHints": [],
+   "stage": [
+    10
+   ],
+   "hook": [
+    1
+   ]
+  },
+  {
+   "call": "0x1430f",
+   "function": "0x142fa",
+   "event": "0",
+   "args": [
+    "di",
+    "si",
+    "di",
+    "si",
+    "bp"
+   ],
+   "stageHints": [],
+   "stage": [
+    10
+   ],
+   "hook": [
+    5
+   ]
+  },
+  {
+   "call": "0x1436c",
+   "function": "0x14339",
+   "event": "z",
+   "args": [
+    "[bp + 6]",
+    "unit[0]",
+    "unit[4]",
+    "unit[1]"
+   ],
+   "stageHints": [],
+   "stage": [
+    10
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x143af",
+   "function": "0x14399",
+   "event": "2",
+   "args": [
+    "unit[4]",
+    "unit[10]",
+    "unit[0]",
+    "si",
+    "bp"
+   ],
+   "stageHints": [],
+   "stage": [
+    11
+   ],
+   "hook": [
+    1
+   ]
+  },
+  {
+   "call": "0x14424",
+   "function": "0x143ec",
+   "event": "A",
+   "args": [
+    "[bp + 6]",
+    "di",
+    "si"
+   ],
+   "stageHints": [],
+   "stage": [
+    11
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x14518",
+   "function": "0x143ec",
+   "event": "B",
+   "args": [
+    "[bp - 0x10]"
+   ],
+   "stageHints": [],
+   "stage": [
+    11
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x1457b",
+   "function": "0x143ec",
+   "event": "C",
+   "args": [
+    "[bp + 6]"
+   ],
+   "stageHints": [],
+   "stage": [
+    11
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x145fe",
+   "function": "0x143ec",
+   "event": "D",
+   "args": [
+    "[bp + 6]",
+    "[bp - 0x10]"
+   ],
+   "stageHints": [],
+   "stage": [
+    11
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x14666",
+   "function": "0x143ec",
+   "event": "E",
+   "args": [
+    "[bp + 6]"
+   ],
+   "stageHints": [],
+   "stage": [
+    11
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x146a5",
+   "function": "0x143ec",
+   "event": "F",
+   "args": [
+    "[bp + 6]"
+   ],
+   "stageHints": [],
+   "stage": [
+    11
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x14705",
+   "function": "0x143ec",
+   "event": "G",
+   "args": [
+    "[bp - 0x10]"
+   ],
+   "stageHints": [],
+   "stage": [
+    11
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x1478f",
+   "function": "0x143ec",
+   "event": "O",
+   "args": [
+    "[bp - 0x10]"
+   ],
+   "stageHints": [],
+   "stage": [
+    11
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x148a2",
+   "function": "0x143ec",
+   "event": "H",
+   "args": [
+    "[bp + 6]"
+   ],
+   "stageHints": [],
+   "stage": [
+    11
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x148e5",
+   "function": "0x143ec",
+   "event": "A",
+   "args": [
+    "[bp + 6]"
+   ],
+   "stageHints": [],
+   "stage": [
+    11
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x14980",
+   "function": "0x143ec",
+   "event": "I",
+   "args": [
+    "unit[4]"
+   ],
+   "stageHints": [],
+   "stage": [
+    11
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x149b6",
+   "function": "0x143ec",
+   "event": "J",
+   "args": [
+    "[bp + 6]"
+   ],
+   "stageHints": [],
+   "stage": [
+    11
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x149f6",
+   "function": "0x143ec",
+   "event": "K",
+   "args": [
+    "[bp + 6]"
+   ],
+   "stageHints": [],
+   "stage": [
+    11
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x14a78",
+   "function": "0x143ec",
+   "event": "L",
+   "args": [
+    "[bp + 6]"
+   ],
+   "stageHints": [],
+   "stage": [
+    11
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x14ad5",
+   "function": "0x143ec",
+   "event": "M",
+   "args": [
+    "di",
+    "[bp + 6]"
+   ],
+   "stageHints": [],
+   "stage": [
+    11
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x14b13",
+   "function": "0x143ec",
+   "event": "N",
+   "args": [
+    "di",
+    "[bp + 6]",
+    "unit[12]"
+   ],
+   "stageHints": [],
+   "stage": [
+    11
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x14b6c",
+   "function": "0x143ec",
+   "event": "0",
+   "args": [
+    "[bp + 6]",
+    "unit[12]",
+    "unit[4]"
+   ],
+   "stageHints": [],
+   "stage": [
+    11
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x14beb",
+   "function": "0x143ec",
+   "event": "ax",
+   "args": [
+    "unit[0]",
+    "unit[4]",
+    "ax"
+   ],
+   "stageHints": [],
+   "stage": [
+    11
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x14cb1",
+   "function": "0x143ec",
+   "event": "z",
+   "args": [
+    "unit[0]",
+    "unit[4]"
+   ],
+   "stageHints": [],
+   "stage": [
+    11
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x14e1d",
+   "function": "0x14df3",
+   "event": "3",
+   "args": [
+    "[bp + 6]"
+   ],
+   "stageHints": [],
+   "stage": [
+    11
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x14e59",
+   "function": "0x14e44",
+   "event": "9",
+   "args": [
+    "unit[0]",
+    "unit[1]",
+    "unit[4]",
+    "bp"
+   ],
+   "stageHints": [],
+   "stage": [
+    12
+   ],
+   "hook": [
+    1
+   ]
+  },
+  {
+   "call": "0x14f38",
+   "function": "0x14f1e",
+   "event": "0",
+   "args": [
+    "unit[0]",
+    "si",
+    "unit[5]",
+    "di",
+    "si",
+    "bp"
+   ],
+   "stageHints": [],
+   "stage": [
+    12
+   ],
+   "hook": [
+    5
+   ]
+  },
+  {
+   "call": "0x14f96",
+   "function": "0x14f68",
+   "event": "z",
+   "args": [
+    "unit[0]",
+    "si",
+    "unit[5]"
+   ],
+   "stageHints": [],
+   "stage": [
+    12
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x15103",
+   "function": "0x150a5",
+   "event": "0",
+   "args": [
+    "[0x60b8]",
+    "unit[0]",
+    "unit[1]",
+    "unit[4]"
+   ],
+   "stageHints": [],
+   "stage": [
+    13
+   ],
+   "hook": [
+    0
+   ]
+  },
+  {
+   "call": "0x15187",
+   "function": "0x150a5",
+   "event": "1",
+   "args": [
+    "[0x60b8]",
+    "unit[0]",
+    "unit[1]",
+    "unit[4]"
+   ],
+   "stageHints": [],
+   "stage": [
+    13
+   ],
+   "hook": [
+    0
+   ]
+  },
+  {
+   "call": "0x154dd",
+   "function": "0x1520c",
+   "event": "7",
+   "args": [
+    "si"
+   ],
+   "stageHints": [],
+   "stage": [
+    13
+   ],
+   "hook": [
+    2
+   ]
+  },
+  {
+   "call": "0x15573",
+   "function": "0x15556",
+   "event": "2",
+   "args": [
+    "si",
+    "unit[0]",
+    "di",
+    "si",
+    "bp"
+   ],
+   "stageHints": [],
+   "stage": [
+    13
+   ],
+   "hook": [
+    5
+   ]
+  },
+  {
+   "call": "0x155b2",
+   "function": "0x15556",
+   "event": "3",
+   "args": [
+    "unit[0]",
+    "si",
+    "unit[18]"
+   ],
+   "stageHints": [],
+   "stage": [
+    13
+   ],
+   "hook": [
+    5
+   ]
+  },
+  {
+   "call": "0x1560a",
+   "function": "0x155dc",
+   "event": "5",
+   "args": [
+    "unit[0]",
+    "si",
+    "unit[4]"
+   ],
+   "stageHints": [],
+   "stage": [
+    13
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x1566c",
+   "function": "0x155dc",
+   "event": "6",
+   "args": [
+    "unit[0]",
+    "si",
+    "di"
+   ],
+   "stageHints": [],
+   "stage": [
+    13
+   ],
+   "hook": [
+    6
+   ]
+  },
+  {
+   "call": "0x158b9",
+   "function": "0x157fb",
+   "event": "0",
+   "args": [
+    "unit[0]",
+    "unit[15]",
+    "[0x2d3c]",
+    "unit[10]",
+    "unit[7]",
+    "unit[5]",
+    "unit[4]"
+   ],
+   "stageHints": [],
+   "stage": [
+    14
+   ],
+   "hook": [
+    0
+   ]
+  },
+  {
+   "call": "0x15b15",
+   "function": "0x15afe",
+   "event": "1",
+   "args": [
+    "si",
+    "si"
+   ],
+   "stageHints": [],
+   "stage": [
+    14
+   ],
+   "hook": [
+    6
+   ]
+  }
+ ]
+}

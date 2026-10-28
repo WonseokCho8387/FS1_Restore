@@ -1,0 +1,21 @@
+# 원본 CD 이미지(359MB, GitHub 파일당 100MB 제한 초과) — 각자 가진 CD 에서 준비
+/CD/
+
+# Unity 생성물
+FarlandUnity/[Ll]ibrary/
+FarlandUnity/[Tt]emp/
+FarlandUnity/[Oo]bj/
+FarlandUnity/[Bb]uild/
+FarlandUnity/[Bb]uilds/
+FarlandUnity/[Ll]ogs/
+FarlandUnity/[Uu]ser[Ss]ettings/
+FarlandUnity/.vs/
+FarlandUnity/*.csproj
+FarlandUnity/*.sln
+FarlandUnity/*.user
+
+# 파이썬·OS
+__pycache__/
+*.pyc
+Thumbs.db
+.DS_Store

@@ -1,0 +1,151 @@
+{
+ "flow": {
+  "opening": "Movies/opening.mp4",
+  "ending": "Movies/ending.mp4",
+  "endingAfterStage": "14",
+  "epilogue": {
+   "dialogue": "Dialogue/STAGE99.json",
+   "background": "Sprites/END2.png",
+   "talks": [
+    {
+     "talk": "@",
+     "args": []
+    },
+    {
+     "talk": "0",
+     "args": [
+      "unit:7",
+      "unit:6"
+     ]
+    },
+    {
+     "talk": "a",
+     "args": [
+      "unit:13",
+      "str:할아버지"
+     ]
+    },
+    {
+     "talk": "1",
+     "args": [
+      "unit:11",
+      "unit:10"
+     ]
+    },
+    {
+     "talk": "2",
+     "args": [
+      "unit:11"
+     ]
+    },
+    {
+     "talk": "3",
+     "args": [
+      "unit:10",
+      "unit:11"
+     ]
+    },
+    {
+     "talk": "4",
+     "args": [
+      "unit:9"
+     ]
+    },
+    {
+     "talk": "b",
+     "args": [
+      "unit:12",
+      "unit:5"
+     ]
+    },
+    {
+     "talk": "c",
+     "args": [
+      "unit:8",
+      "str:마을 사람",
+      "str:상인"
+     ]
+    },
+    {
+     "talk": "g",
+     "args": [
+      "unit:3"
+     ]
+    },
+    {
+     "talk": "h",
+     "args": [
+      "unit:4"
+     ]
+    },
+    {
+     "talk": "d",
+     "args": [
+      "unit:14"
+     ]
+    },
+    {
+     "talk": "e",
+     "args": [
+      "unit:2",
+      "unit:14"
+     ]
+    },
+    {
+     "talk": "f",
+     "args": [
+      "unit:14"
+     ]
+    },
+    {
+     "talk": "x",
+     "args": [
+      "unit:0",
+      "unit:15",
+      "unit:1",
+      "str:모하드"
+     ]
+    },
+    {
+     "talk": "y",
+     "args": [
+      "unit:0",
+      "unit:15",
+      "unit:1"
+     ]
+    },
+    {
+     "talk": "z",
+     "args": [
+      "unit:0",
+      "unit:15",
+      "unit:1"
+     ]
+    }
+   ]
+  }
+ },
+ "system": {
+  "itemInfo": "Dialogue/STAGE51.json",
+  "system": "Dialogue/STAGE52.json",
+  "commandBlocks": [
+   "0",
+   "1"
+  ],
+  "shopGreeting": "9",
+  "shopMusic": [
+   15,
+   18
+  ],
+  "chestKeyItem": 37,
+  "chestKeyTalk": "1"
+ },
+ "startStage": "1",
+ "musicFile": "Audio/BGM/track{0:00}.ogg",
+ "musicTrackOffset": 1,
+ "titleImage": "Sprites/TITLE.png",
+ "charactersFile": "Dialogue/characters.json",
+ "battleData": "Battle/battle_data.json",
+ "enemyStepDelay": 0.25,
+ "rngSeed": 0
+}

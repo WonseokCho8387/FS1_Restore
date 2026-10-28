@@ -1,0 +1,552 @@
+{
+ "fps": 60,
+ "totalFrames": 6175,
+ "music": "track13 (음악 번호 12, FSMAIN 0x11564)",
+ "screen": {
+  "width": 640,
+  "height": 400
+ },
+ "phases": [
+  {
+   "start": 0,
+   "end": 864,
+   "kind": "castle",
+   "image": "END1",
+   "x": 304,
+   "y": 0,
+   "w": 336,
+   "h": 400,
+   "note": "검은 화면에서 END1 팔레트로 페이드인(6프레임마다 1단계) 하며 144단계×6프레임 세로 패닝. 좌측 304px는 검정"
+  },
+  {
+   "start": 864,
+   "end": 991,
+   "kind": "fadeOut",
+   "note": "팔레트를 검정으로 페이드아웃(4프레임 간격)"
+  },
+  {
+   "start": 991,
+   "end": 1215,
+   "kind": "couple",
+   "image": "END2",
+   "x": 304,
+   "y": 0,
+   "w": 336,
+   "h": 400,
+   "note": "END2를 그리고 7프레임 간격으로 페이드인"
+  },
+  {
+   "start": 1215,
+   "end": 6055,
+   "kind": "staffRoll",
+   "area": {
+    "x": 0,
+    "y": 0,
+    "w": 304,
+    "h": 400
+   },
+   "lineHeight": 20,
+   "framesPerLine": 40,
+   "textX": 8,
+   "note": "한 줄을 y=380에 그리고 40프레임 동안 2프레임당 1px 위로 스크롤. 흰 글자 + 검은 그림자"
+  },
+  {
+   "start": 6055,
+   "end": 6175,
+   "kind": "rollOut",
+   "note": "'/'(끝) 이후 120프레임 더 스크롤"
+  },
+  {
+   "start": 6175,
+   "end": null,
+   "kind": "hold",
+   "note": "원작은 여기서 무한 대기(jmp $)"
+  }
+ ],
+ "staff": [
+  {
+   "t": 1215,
+   "text": ""
+  },
+  {
+   "t": 1255,
+   "text": "     F a r l a n d  S t o r y"
+  },
+  {
+   "t": 1295,
+   "text": ""
+  },
+  {
+   "t": 1335,
+   "text": "           S t a f f"
+  },
+  {
+   "t": 1375,
+   "text": ""
+  },
+  {
+   "t": 1415,
+   "text": ""
+  },
+  {
+   "t": 1455,
+   "text": ""
+  },
+  {
+   "t": 1495,
+   "text": "           Program"
+  },
+  {
+   "t": 1535,
+   "text": ""
+  },
+  {
+   "t": 1575,
+   "text": "             Masaaki Arihara"
+  },
+  {
+   "t": 1615,
+   "text": "             Hiroyuki Kudoh"
+  },
+  {
+   "t": 1655,
+   "text": "             Hironori Horikawa"
+  },
+  {
+   "t": 1695,
+   "text": "             Giichi Ariyama"
+  },
+  {
+   "t": 1735,
+   "text": ""
+  },
+  {
+   "t": 1775,
+   "text": ""
+  },
+  {
+   "t": 1815,
+   "text": "           Opening Program"
+  },
+  {
+   "t": 1855,
+   "text": ""
+  },
+  {
+   "t": 1895,
+   "text": "             Naoki Fujikawa"
+  },
+  {
+   "t": 1935,
+   "text": "             Hironori Horikawa"
+  },
+  {
+   "t": 1975,
+   "text": ""
+  },
+  {
+   "t": 2015,
+   "text": ""
+  },
+  {
+   "t": 2055,
+   "text": ""
+  },
+  {
+   "t": 2095,
+   "text": "           Character Design"
+  },
+  {
+   "t": 2135,
+   "text": ""
+  },
+  {
+   "t": 2175,
+   "text": "             Kazuhiro Matsuzaka"
+  },
+  {
+   "t": 2215,
+   "text": ""
+  },
+  {
+   "t": 2255,
+   "text": ""
+  },
+  {
+   "t": 2295,
+   "text": ""
+  },
+  {
+   "t": 2335,
+   "text": "           Graphic Design"
+  },
+  {
+   "t": 2375,
+   "text": ""
+  },
+  {
+   "t": 2415,
+   "text": "             Kazuhiro Matsuzaka"
+  },
+  {
+   "t": 2455,
+   "text": "             Anime-R"
+  },
+  {
+   "t": 2495,
+   "text": ""
+  },
+  {
+   "t": 2535,
+   "text": ""
+  },
+  {
+   "t": 2575,
+   "text": ""
+  },
+  {
+   "t": 2615,
+   "text": "           Story"
+  },
+  {
+   "t": 2655,
+   "text": ""
+  },
+  {
+   "t": 2695,
+   "text": "             Atsushi Masuda"
+  },
+  {
+   "t": 2735,
+   "text": ""
+  },
+  {
+   "t": 2775,
+   "text": ""
+  },
+  {
+   "t": 2815,
+   "text": ""
+  },
+  {
+   "t": 2855,
+   "text": "           Scenario"
+  },
+  {
+   "t": 2895,
+   "text": ""
+  },
+  {
+   "t": 2935,
+   "text": "             PRODUS Corp.             Tsuyoshi Shimozato"
+  },
+  {
+   "t": 2975,
+   "text": ""
+  },
+  {
+   "t": 3015,
+   "text": ""
+  },
+  {
+   "t": 3055,
+   "text": ""
+  },
+  {
+   "t": 3095,
+   "text": "           Music composer"
+  },
+  {
+   "t": 3135,
+   "text": ""
+  },
+  {
+   "t": 3175,
+   "text": "             Tomoo Kasahara"
+  },
+  {
+   "t": 3215,
+   "text": "             Tatsuya Watarai"
+  },
+  {
+   "t": 3255,
+   "text": "             Takahiro Yonemura"
+  },
+  {
+   "t": 3295,
+   "text": ""
+  },
+  {
+   "t": 3335,
+   "text": ""
+  },
+  {
+   "t": 3375,
+   "text": ""
+  },
+  {
+   "t": 3415,
+   "text": "           Music director"
+  },
+  {
+   "t": 3455,
+   "text": ""
+  },
+  {
+   "t": 3495,
+   "text": "             MUSIC ISLAND corp."
+  },
+  {
+   "t": 3535,
+   "text": ""
+  },
+  {
+   "t": 3575,
+   "text": ""
+  },
+  {
+   "t": 3615,
+   "text": ""
+  },
+  {
+   "t": 3655,
+   "text": "           Graphics"
+  },
+  {
+   "t": 3695,
+   "text": ""
+  },
+  {
+   "t": 3735,
+   "text": "             Kaen-miso"
+  },
+  {
+   "t": 3775,
+   "text": "             Tomoaki Hamada"
+  },
+  {
+   "t": 3815,
+   "text": "             Daisuke Fujimoto"
+  },
+  {
+   "t": 3855,
+   "text": "             Dori-Doriru"
+  },
+  {
+   "t": 3895,
+   "text": "             Kerop"
+  },
+  {
+   "t": 3935,
+   "text": "             Micheal"
+  },
+  {
+   "t": 3975,
+   "text": "             Momochin"
+  },
+  {
+   "t": 4015,
+   "text": "             Hideaki Kawai"
+  },
+  {
+   "t": 4055,
+   "text": "             Burubon"
+  },
+  {
+   "t": 4095,
+   "text": "             Tucchi"
+  },
+  {
+   "t": 4135,
+   "text": "             Yoshan"
+  },
+  {
+   "t": 4175,
+   "text": ""
+  },
+  {
+   "t": 4215,
+   "text": ""
+  },
+  {
+   "t": 4255,
+   "text": ""
+  },
+  {
+   "t": 4295,
+   "text": "           Cel Animation design"
+  },
+  {
+   "t": 4335,
+   "text": ""
+  },
+  {
+   "t": 4375,
+   "text": "             Kyoto-Animation"
+  },
+  {
+   "t": 4415,
+   "text": ""
+  },
+  {
+   "t": 4455,
+   "text": ""
+  },
+  {
+   "t": 4495,
+   "text": ""
+  },
+  {
+   "t": 4535,
+   "text": "           Special Thanks"
+  },
+  {
+   "t": 4575,
+   "text": ""
+  },
+  {
+   "t": 4615,
+   "text": "             Minoru Kawahata"
+  },
+  {
+   "t": 4655,
+   "text": "             Yoshitaka Nishi"
+  },
+  {
+   "t": 4695,
+   "text": "             Ken Ken"
+  },
+  {
+   "t": 4735,
+   "text": "             Oyabin"
+  },
+  {
+   "t": 4775,
+   "text": "             OS-8"
+  },
+  {
+   "t": 4815,
+   "text": "             Katsuji Miyamae"
+  },
+  {
+   "t": 4855,
+   "text": "             Akinori Yoshioka"
+  },
+  {
+   "t": 4895,
+   "text": "             Hiroki Nakagawa"
+  },
+  {
+   "t": 4935,
+   "text": "             Saori Miki"
+  },
+  {
+   "t": 4975,
+   "text": "             Naoko Takada"
+  },
+  {
+   "t": 5015,
+   "text": "             Giichi Ariyama"
+  },
+  {
+   "t": 5055,
+   "text": ""
+  },
+  {
+   "t": 5095,
+   "text": ""
+  },
+  {
+   "t": 5135,
+   "text": ""
+  },
+  {
+   "t": 5175,
+   "text": "           Produced by"
+  },
+  {
+   "t": 5215,
+   "text": ""
+  },
+  {
+   "t": 5255,
+   "text": "             T.G.L corp."
+  },
+  {
+   "t": 5295,
+   "text": ""
+  },
+  {
+   "t": 5335,
+   "text": ""
+  },
+  {
+   "t": 5375,
+   "text": ""
+  },
+  {
+   "t": 5415,
+   "text": ""
+  },
+  {
+   "t": 5455,
+   "text": ""
+  },
+  {
+   "t": 5495,
+   "text": ""
+  },
+  {
+   "t": 5535,
+   "text": ""
+  },
+  {
+   "t": 5575,
+   "text": ""
+  },
+  {
+   "t": 5615,
+   "text": ""
+  },
+  {
+   "t": 5655,
+   "text": "             Planning"
+  },
+  {
+   "t": 5695,
+   "text": ""
+  },
+  {
+   "t": 5735,
+   "text": "             T.G.L corp."
+  },
+  {
+   "t": 5775,
+   "text": ""
+  },
+  {
+   "t": 5815,
+   "text": ""
+  },
+  {
+   "t": 5855,
+   "text": ""
+  },
+  {
+   "t": 5895,
+   "text": ""
+  },
+  {
+   "t": 5935,
+   "text": ""
+  },
+  {
+   "t": 5975,
+   "text": ""
+  },
+  {
+   "t": 6015,
+   "text": ""
+  }
+ ]
+}

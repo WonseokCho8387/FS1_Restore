@@ -1,0 +1,4 @@
+﻿06 디노 (처음 클래스 3)
+map_cNN.png / map_acted_cNN.png : 맵 그림(32x32, 클래스 NN 일 때). 클래스 상관없이 쓰려면 map.png / map_acted.png
+battle_cNN/000.png… : 전투 프레임(SpriteDefs/CHAR_NN.json 의 frameWidth x frameHeight). 클래스 상관없이 battle/
+face.png : 얼굴(112x112)

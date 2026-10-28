@@ -1,0 +1,93 @@
+{
+ "tileSize": 32,
+ "tileColumns": 10,
+ "mapUnitSheet": "Sprites/MAPCHAR.png",
+ "mapUnitSize": 32,
+ "mapUnitColumns": 20,
+ "actedChipOffset": 42,
+ "actedMaxClass": 17,
+ "classChip": [
+  {
+   "cls": 60,
+   "chip": 12
+  },
+  {
+   "cls": 61,
+   "chip": 15
+  }
+ ],
+ "facePattern": "Sprites/FACE{0:00}.png",
+ "iconSheet": "Sprites/ICONCHIP.png",
+ "iconSize": 32,
+ "iconColumns": 12,
+ "chestClosedIcon": 4,
+ "chestOpenIcon": 6,
+ "warpChips": [
+  85,
+  107
+ ],
+ "sideMarks": {
+  "enemy": 18,
+  "ally": 20,
+  "rescue": 22,
+  "cursor": 16,
+  "enemyColor": "#FF5040",
+  "allyColor": "#50A0FF",
+  "rescueColor": "#FFC830"
+ },
+ "fonts": [
+  "Malgun Gothic",
+  "맑은 고딕",
+  "Gulim",
+  "Arial"
+ ],
+ "bitmapFont": {
+  "han": "Fonts/IYG.HAN",
+  "eng": "Fonts/NORMAL.ENG"
+ },
+ "windows": {
+  "normal": {
+   "image": "UI/window.png",
+   "border": [
+    7,
+    9,
+    9,
+    6
+   ]
+  },
+  "solid": {
+   "image": "UI/window_solid.png",
+   "border": [
+    7,
+    9,
+    9,
+    6
+   ]
+  },
+  "menu": {
+   "image": "UI/window_menu.png",
+   "border": [
+    7,
+    9,
+    9,
+    6
+   ]
+  }
+ },
+ "cursorImage": "Sprites/MCSRFONT.png",
+ "cursorSize": 24,
+ "hpGauge": {
+  "fill": "#66BB22",
+  "lost": "#DD2244",
+  "back": "#222222"
+ },
+ "colors": {
+  "move": "#3A78FF70",
+  "attack": "#FF3A3A70",
+  "cursor": "#FFFFFFB0",
+  "ally": "#4FA3FF",
+  "enemy": "#FF5A5A",
+  "window": "#101830E6",
+  "windowBorder": "#C8B070"
+ }
+}
